@@ -1,3 +1,0 @@
-Les régions sont globales et les AZ possèdent plusieurs centres de données
-Si plusieurs AZ sont HS, celà signifie qu'il y a un problème dans la Région.  Lez AZ permettent offrent une HA et une fault tolerance.
-Une AZ peut avoir une ou plusieurs AZ.
