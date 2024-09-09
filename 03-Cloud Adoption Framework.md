@@ -46,20 +46,64 @@ Le Well-Architected Framework est un ensemble de bonnes pratiques et de principe
 1. Security (Sécurité)
 Ce pilier se concentre sur la protection des données, des systèmes et des actifs utilisés par votre charge de travail. Il s'agit d'implémenter des contrôles pour protéger la confidentialité et l'intégrité des informations, gérer les accès, et assurer la résilience des systèmes face aux cybermenaces.
 
+Utilisez AWS CloudTrail pour enregistrer toutes les actions effectuées dans votre compte AWS.
+CloudTrail permet de suivre l'historique des actions, facilitant ainsi la détection des comportements suspects, le suivi des modifications et l'analyse des incidents de sécurité.
+
 2. Cost Optimization (Optimisation des coûts)
 L'optimisation des coûts est un processus continu qui vise à gérer et réduire les dépenses associées à l'utilisation du cloud. Cela inclut des stratégies comme l'utilisation des ressources sur demande, la gestion des dépenses liées à la capacité excédentaire, et la mise en place de mécanismes d'auto-scaling pour ajuster les coûts selon les besoins.
+
+Utilisez S3 Intelligent-Tiering pour déplacer automatiquement les données entre les classes de stockage en fonction des modèles d'accès.
+S3 Intelligent-Tiering vous aide à optimiser les coûts de stockage en déplaçant les données moins fréquemment utilisées vers des classes de stockage plus économiques, tout en maintenant les performances pour les données régulièrement consultées.
+
 
 3. Performance Efficiency (Efficacité des performances)
 Ce pilier met l'accent sur l'utilisation efficace des ressources informatiques pour répondre aux exigences. Il s'agit de maximiser l'efficacité des performances tout en minimisant la consommation des ressources, en s'assurant que votre infrastructure s'adapte aux évolutions des besoins et que les bonnes pratiques d'optimisation des performances sont en place.
 
-4. Operational Excellence (Excellence opérationnelle)
+Utilisez AWS Lambda pour exécuter du code sans gérer de serveurs ni d'administration.
+Lambda permet de déclencher des fonctions en réponse à des événements sans avoir à provisionner ou gérer une infrastructure, garantissant une utilisation efficace des ressources.
+
+5. Operational Excellence (Excellence opérationnelle)
 L'excellence opérationnelle vise à créer et gérer des applications qui soutiennent efficacement vos charges de travail. Cela inclut la surveillance continue, l'automatisation des tâches opérationnelles, et l'amélioration continue des processus pour garantir une gestion optimale des systèmes.
+
+Utilisez AWS CodeCommit pour la gestion du code et le contrôle des versions des templates d'infrastructure.
+CodeCommit permet de gérer les dépôts Git de manière sécurisée, facilitant ainsi la collaboration sur le développement d’applications et le contrôle des versions de l'infrastructure.
 
 5. Reliability (Fiabilité)
 Ce pilier se concentre sur la conception de systèmes capables de résister aux pannes et de récupérer rapidement en cas d’incidents. La fiabilité garantit la disponibilité des services en cas de perturbations, tout en minimisant l'impact sur les utilisateurs finaux et en assurant la continuité des opérations.
 
+Utilisez les déploiements Multi-AZ pour les bases de données RDS afin d'assurer la haute disponibilité et la récupération rapide en cas de panne.
+Multi-AZ permet à une base de données RDS d'être déployée dans plusieurs zones de disponibilité, offrant ainsi une tolérance aux pannes et une meilleure continuité des services.
+
 6. Sustainability (Durabilité)
 La durabilité concerne l'impact environnemental de votre infrastructure. Il s'agit de réduire la consommation d'énergie et l'empreinte carbone en adoptant des pratiques d'efficacité énergétique, en optimisant l'utilisation des ressources et en minimisant l'impact environnemental des services cloud.
+
+Utilisez Auto Scaling pour EC2 afin d'assurer une utilisation maximale des ressources.
+Auto Scaling permet d'ajuster automatiquement le nombre d'instances en fonction des besoins réels, optimisant ainsi la consommation d'énergie et réduisant les coûts liés à une surcapacité de serveurs.
+
+
+
+Principes généraux de conception du Well-Architected Framework
+
+Ces principes fournissent des lignes directrices pour créer des architectures cloud robustes et résilientes, en se concentrant sur la flexibilité, l'efficacité et l'amélioration continue.
+
+1. Stop Guessing Your Capacity Needs (Ne devinez plus vos besoins en capacité)
+L'un des grands avantages du cloud est de ne plus avoir à estimer ou à surprovisionner vos ressources. Utilisez les capacités élastiques du cloud pour ajuster dynamiquement vos ressources en fonction des besoins réels de votre charge de travail, réduisant ainsi le gaspillage et les coûts.
+
+2. Test Systems at Production Scale (Testez les systèmes à l'échelle de production)
+Afin d'assurer la fiabilité de vos applications, il est crucial de tester les systèmes à la même échelle que celle de la production. Cela permet d’identifier les goulets d’étranglement, les problèmes de performance ou de disponibilité avant que vos utilisateurs ne soient impactés.
+
+3. Consider Evolutionary Architectures (Considérez des architectures évolutives)
+Les besoins technologiques évoluent rapidement. Concevez des architectures qui peuvent évoluer facilement au fil du temps sans nécessiter de révision complète. Cela inclut l'adoption de microservices, d'API bien définies et de conceptions modulaires permettant une innovation continue.
+
+4. Automate with Architectural Experimentation in Mind (Automatisez avec l'expérimentation architecturale en tête)
+L'automatisation est clé dans le cloud. Automatisez les tâches répétitives et les tests afin de libérer du temps pour des expérimentations architecturales. Cela favorise l’innovation, améliore l’efficacité, et garantit que les changements peuvent être intégrés rapidement et de manière fiable.
+
+5. Drive Architectures Using Data (Pilotez les architectures à partir de données)
+Les décisions architecturales doivent être guidées par les données. Utilisez des métriques, des journaux et des rapports pour évaluer les performances de vos systèmes, identifier les zones d'optimisation et ajuster vos architectures en fonction des observations et des tendances.
+
+6. Improve Through Game Days (Améliorez via des journées de simulation)
+Organisez des Game Days pour tester la résilience et la fiabilité de vos systèmes. Ces simulations de pannes ou de situations de crise permettent à vos équipes d'identifier les points faibles de votre architecture et de se préparer à des événements inattendus dans des conditions contrôlées.
+
 
 
 
