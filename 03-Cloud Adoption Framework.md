@@ -39,3 +39,27 @@ Une fois la vision clarifiée et les parties prenantes alignées, l'étape de la
 La dernière phase consiste à faire évoluer les initiatives pour qu'elles deviennent durables et à long terme. Une fois que les premiers projets ont démontré leur succès, l'objectif est d'étendre ces initiatives à une plus grande échelle, en optimisant l'efficacité, en réduisant les coûts et en améliorant l'impact global de la transformation cloud. À ce stade, il s'agit de transformer l'adoption du cloud en un modèle continu et résilient qui soutient les objectifs futurs de l'entreprise.
 
 
+Présentation du Well-Architected Framework
+
+Le Well-Architected Framework est un ensemble de bonnes pratiques et de principes directeurs pour concevoir et exploiter des systèmes dans le cloud de manière efficace, sécurisée et optimisée. Il repose sur six piliers fondamentaux qui permettent de construire des architectures robustes, tout en minimisant les risques et en maximisant les performances.
+
+1. Security (Sécurité)
+Ce pilier se concentre sur la protection des données, des systèmes et des actifs utilisés par votre charge de travail. Il s'agit d'implémenter des contrôles pour protéger la confidentialité et l'intégrité des informations, gérer les accès, et assurer la résilience des systèmes face aux cybermenaces.
+
+2. Cost Optimization (Optimisation des coûts)
+L'optimisation des coûts est un processus continu qui vise à gérer et réduire les dépenses associées à l'utilisation du cloud. Cela inclut des stratégies comme l'utilisation des ressources sur demande, la gestion des dépenses liées à la capacité excédentaire, et la mise en place de mécanismes d'auto-scaling pour ajuster les coûts selon les besoins.
+
+3. Performance Efficiency (Efficacité des performances)
+Ce pilier met l'accent sur l'utilisation efficace des ressources informatiques pour répondre aux exigences. Il s'agit de maximiser l'efficacité des performances tout en minimisant la consommation des ressources, en s'assurant que votre infrastructure s'adapte aux évolutions des besoins et que les bonnes pratiques d'optimisation des performances sont en place.
+
+4. Operational Excellence (Excellence opérationnelle)
+L'excellence opérationnelle vise à créer et gérer des applications qui soutiennent efficacement vos charges de travail. Cela inclut la surveillance continue, l'automatisation des tâches opérationnelles, et l'amélioration continue des processus pour garantir une gestion optimale des systèmes.
+
+5. Reliability (Fiabilité)
+Ce pilier se concentre sur la conception de systèmes capables de résister aux pannes et de récupérer rapidement en cas d’incidents. La fiabilité garantit la disponibilité des services en cas de perturbations, tout en minimisant l'impact sur les utilisateurs finaux et en assurant la continuité des opérations.
+
+6. Sustainability (Durabilité)
+La durabilité concerne l'impact environnemental de votre infrastructure. Il s'agit de réduire la consommation d'énergie et l'empreinte carbone en adoptant des pratiques d'efficacité énergétique, en optimisant l'utilisation des ressources et en minimisant l'impact environnemental des services cloud.
+
+
+
