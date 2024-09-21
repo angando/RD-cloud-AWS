@@ -6,3 +6,5 @@ Pour répondre aux exigences de conformité réglementaire ou d’entreprise qui
 Avantage :
 Vous pouvez économiser jusqu'à 70 % par rapport aux prix On-Demand.
 Il n'y a aucun partage de serveur avec d'autres clients, ce qui garantit une isolation complète de vos ressources.
+
+Note: Les instances dédiées s'exécutent sur les hôtes dédiées
