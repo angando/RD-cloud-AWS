@@ -34,7 +34,7 @@ Ainsi, DevSoft utilise une combinaison des deux solutions pour gérer efficaceme
 
 
 
-Non, les instances On-Demand et les Capacity Reservations sont des concepts distincts, et ils ne sont pas forcément associés à la même instance EC2.
+les instances On-Demand et les Capacity Reservations sont des concepts distincts, et ils ne sont pas forcément associés à la même instance EC2.
 
 Voici les différences clés pour comprendre :
 On-Demand Instances :
