@@ -34,3 +34,20 @@ Les environnements de développement où les données ne nécessitent pas d’ê
 Bases de données NoSQL temporaires :
 
 Les bases de données temporaires qui peuvent être régénérées, comme Redis ou Memcached, utilisent souvent l'instance store pour son faible temps de latence et ses performances élevées.
+
+Cas d’usage à éviter avec Instance Store :
+Applications nécessitant une persistance des données :
+
+Si vous devez stocker des données critiques et garantir leur persistance (par exemple, des bases de données relationnelles comme MySQL ou PostgreSQL), il est préférable d'utiliser des volumes EBS ou EFS qui offrent des sauvegardes automatiques et une redondance.
+Applications avec besoin de réplication inter-AZ :
+
+L'instance store ne permet pas de répliquer les données sur plusieurs zones de disponibilité (AZ), donc pour des données critiques nécessitant une haute disponibilité et une réplication, Amazon S3 ou EBS sont plus adaptés.
+Conclusion :
+L'EC2 Instance Store est un excellent choix pour des applications qui nécessitent un stockage rapide et éphémère, comme des caches ou des fichiers temporaires. Il offre des performances élevées, car les données sont stockées localement sur le matériel sous-jacent de l'instance EC2. Cependant, ce type de stockage doit être utilisé avec précaution pour des tâches non critiques, car les données sont perdues si l'instance est arrêtée. Pour les charges de travail nécessitant une persistance des données et une haute disponibilité, des solutions comme Amazon EBS ou S3 sont préférables.
+
+
+
+
+
+
+
