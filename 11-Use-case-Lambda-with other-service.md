@@ -19,3 +19,14 @@ Alexa Skill : L'utilisateur interagit avec un appareil utilisant Alexa, l’assi
 Lambda : Alexa envoie une requête à une fonction Lambda qui contient la logique métier nécessaire pour répondre à la commande vocale de l'utilisateur.
 DynamoDB : Si l'application doit stocker ou récupérer des données (comme les préférences utilisateur ou l'historique des interactions), Lambda interagit avec une base de données DynamoDB pour traiter ces informations.
 Cas d’usage : Ce flux est utilisé pour des applications vocales où les commandes utilisateur sont traitées par Lambda, tandis que DynamoDB sert à stocker des informations personnalisées ou à gérer des états complexes. C'est un schéma commun dans les applications de domotique, les assistants personnels ou les applications vocales.
+
+
+![image](https://github.com/user-attachments/assets/4700ce77-7917-42fc-9b7d-12e1c45b62aa)
+
+
+
+
+![image](https://github.com/user-attachments/assets/0505d53c-2f20-42e7-9618-1487fb867612)
+
+
+
