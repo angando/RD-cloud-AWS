@@ -13,7 +13,8 @@ Direct Connect permet d'obtenir une connexion plus stable, avec des temps de lat
 Options de bande passante flexibles :
 
 AWS Direct Connect propose des connexions à différentes vitesses, allant de 50 Mbps à 100 Gbps, permettant aux entreprises de choisir la bande passante adaptée à leurs besoins en termes de volume de données et de performance.
-Connectivité hybride :
+
+***Connectivité hybride :***
 
 Direct Connect peut être utilisé pour configurer une architecture hybride en connectant de manière transparente les ressources locales et les environnements cloud AWS. Cela permet une intégration plus fluide entre les serveurs sur site et les services AWS tels que Amazon EC2, Amazon S3, ou Amazon VPC.
 Virtual Interfaces (VIF) :
@@ -22,20 +23,25 @@ Direct Connect permet de configurer jusqu’à 50 interfaces virtuelles (VIF) su
 Public VIF pour accéder aux services AWS publics (ex. S3, DynamoDB).
 Private VIF pour connecter votre infrastructure locale à un VPC (Virtual Private Cloud) en privé.
 Transit VIF pour connecter plusieurs VPC via AWS Transit Gateway.
-Redondance et haute disponibilité :
+
+***Redondance et haute disponibilité :***
 
 Pour des applications nécessitant une haute disponibilité, Direct Connect permet de configurer des connexions redondantes. Vous pouvez avoir des connexions multiples dans une ou plusieurs régions AWS pour assurer la continuité des services en cas de défaillance d’un lien physique.
 Cas d’usage d’AWS Direct Connect :
-Applications nécessitant une faible latence :
+
+**Applications nécessitant une faible latence :**
 
 Les entreprises ayant des applications sensibles à la latence, comme les systèmes de trading en temps réel ou les bases de données critiques, bénéficient de connexions plus rapides et plus fiables avec Direct Connect. Cela permet de réduire les temps de latence pour les transactions et le traitement de données.
-Migration de grandes quantités de données vers AWS :
+
+
+***Migration de grandes quantités de données vers AWS :***
 
 Pour les entreprises ayant de gros volumes de données à migrer vers AWS, Direct Connect offre une solution plus efficace et moins coûteuse que l'utilisation de l'Internet public. Cela permet d'utiliser des services comme Amazon S3 ou Glacier pour stocker des données à long terme.
 Extension d'un datacenter vers AWS (Cloud Hybride) :
 
 Direct Connect est essentiel pour les environnements hybrides, où des applications sur site communiquent avec des instances EC2 ou d’autres ressources cloud AWS. La connexion privée et stable garantit que les charges de travail critiques peuvent être distribuées entre le datacenter local et le cloud AWS sans compromettre la performance.
-Optimisation des coûts pour les transferts de données :
+
+***Optimisation des coûts pour les transferts de données :***
 
 Les entreprises qui transfèrent des volumes importants de données hors d'AWS vers leurs infrastructures locales peuvent utiliser Direct Connect pour réduire les coûts de transfert de données par rapport à l’utilisation de l’Internet public.
 Accès direct aux services AWS publics et privés :
@@ -45,18 +51,21 @@ Connexion multi-cloud :
 
 Direct Connect peut être intégré avec d'autres solutions comme AWS Transit Gateway pour permettre une architecture multi-cloud, où des ressources AWS communiquent avec d'autres fournisseurs de cloud à travers un réseau sécurisé et privé.
 Avantages d’AWS Direct Connect :
-Fiabilité accrue :
+
+***Fiabilité accrue :***
 
 En utilisant une connexion réseau dédiée et privée, Direct Connect élimine les problèmes de congestion et de variabilité des performances rencontrés sur Internet, offrant une expérience plus prévisible et stable.
 Meilleure sécurité :
 
 Contrairement aux connexions Internet, Direct Connect permet de transférer des données entre AWS et vos installations locales sans passer par l'Internet public, réduisant ainsi les risques liés à la sécurité.
-Économies de coûts sur les transferts de données :
+
+***Économies de coûts sur les transferts de données :***
 
 Direct Connect permet de réduire les coûts des transferts de données sortants, offrant une solution économique pour les entreprises qui gèrent d'importants flux de données entre leur infrastructure locale et AWS.
-Performances améliorées pour les charges de travail hybrides :
 
+***Performances améliorées pour les charges de travail hybrides :***
 Les environnements hybrides qui nécessitent des interactions fréquentes entre des applications locales et des ressources cloud bénéficient d'une connexion rapide et fiable, améliorant ainsi la performance globale des applications.
+
 Évolutivité :
 
 Direct Connect permet de faire évoluer la bande passante de la connexion en fonction des besoins de l’entreprise, de 50 Mbps à 100 Gbps, garantissant ainsi que la connexion puisse grandir avec l'entreprise.
